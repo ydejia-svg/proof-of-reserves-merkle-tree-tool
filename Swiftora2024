@@ -1,0 +1,21 @@
+Browser
+  ├── Public website and customer portal
+  ├── Admin operations dashboard
+  └── JSON API routes
+          │
+          ▼
+Next.js App Router
+  ├── Server-rendered pages and layouts
+  ├── Client components for forms and interactions
+  ├── Server Actions for admin and account operations
+  └── Route Handlers for tracking, quotes and contact
+          │
+          ▼
+Shared business logic
+  ├── Shipment lookup and tracking
+  ├── Quote and rate calculation
+  ├── Authentication and sessions
+  └── Demo data seeding
+          │
+          ▼
+PostgreSQL ◄── Drizzle ORM
